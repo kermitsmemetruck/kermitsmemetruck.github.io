@@ -8,43 +8,9 @@
         <li>
           <router-link to="/">Home</router-link>
         </li>
-        <li>
-          <router-link to="/browsers">Browsers</router-link>
-        </li>
-        <li>
-          <router-link to="/extensions">Extensions</router-link>
-        </li>
-        <li>
-          <router-link to="/apps">Apps</router-link>
-        </li>
-        <li>
-          <router-link to="/about">About</router-link>
-        </li>
-        <li>
-          <a href="https://games.salad242.gq">Games</a>
-		</li>
       </ul>
     </nav>
-    <!-- <transition name="fade" mode="out-in"> -->
     <router-view/>
-    <!-- </transition> -->
-    <img
-      src="https://img.shields.io/badge/-No%20longer%20available-inactive.svg"
-      style="position:absolute;left:5px;bottom:5px;height:25px;"
-    >
-    <img
-      src="https://img.shields.io/badge/-Available%20soon-yellow.svg"
-      style="position:absolute;left:5px;bottom:59px;height:25px;"
-    >
-    <img
-      src="https://img.shields.io/badge/-Working-success.svg"
-      style="position:absolute;left:5px;bottom:86px;height:25px;"
-    >
-    <img
-      src="https://img.shields.io/badge/-Blocked by LSR7-red.svg"
-      style="position:absolute;left:5px;bottom:32px;height:25px"
-    >
-    <span style="font-size:15px;position:absolute;left:5px;bottom:111px;">What do the colors mean?</span>
   </div>
 </template>
 
@@ -55,7 +21,7 @@ export default {
   name: "App",
   metaInfo: {
     title: "",
-    titleTemplate: "%s • salad242",
+    titleTemplate: "%s • Kermit's Meme Truck",
     htmlAttrs: {
       lang: "en"
     },
@@ -87,7 +53,7 @@ nav {
 }
 nav img {
   height: 50px;
-  width: 159px;
+  width: 404px;
   z-index: 50;
   position: absolute;
   top: 0;
@@ -163,10 +129,4 @@ ul.list .title {
   -webkit-filter: drop-shadow(0px 0px 3px #222222);
   filter: drop-shadow(0px 0px 3px #222222);
 }
-/* .fade-enter-active, .fade-leave-active {
-  transition: opacity .5s
-}
-.fade-enter, .fade-leave-to {
-  opacity: 0
-} */
 </style>
