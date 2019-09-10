@@ -69,7 +69,7 @@ nav ul {
   background-color: #333;
 }
 nav li:first-child {
-  padding-left: 160px;
+  padding-left: 405px;
 }
 nav li {
   float: left;
