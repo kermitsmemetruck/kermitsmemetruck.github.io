@@ -35,13 +35,13 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 :root {
-  /* The width and height of the logo image. Dont put "px" */
+  /* The width and height of the logo image. Don't put "px" */
   --logoImageHeight: 225;
   --logoImageWidth: 1820;
   
   /* Don't touch */
   --logoHeight: 50;
-  --logoWidth: calc((var(--logoImageWidth)/2)/(var(--logoImageHeight)/50))
+  --logoWidth: calc((var(--logoImageWidth)/2)/(var(--logoImageHeight)/50));
   --logoSpacing: 1;
 }
 * {
