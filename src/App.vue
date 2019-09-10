@@ -34,6 +34,16 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+:root {
+  /* The width and height of the logo image. Dont put "px" */
+  --logoImageHeight: 225;
+  --logoImageWidth: 1820;
+  
+  /* Don't touch */
+  --logoHeight: 50;
+  --logoWidth: calc((var(--logoImageWidth)/2)/(var(--logoImageHeight)/50))
+  --logoSpacing: 1px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -52,8 +62,8 @@ nav {
   z-index: 49;
 }
 nav img {
-  height: 50px;
-  width: 404px;
+  height: var(--logoHeight);
+  width: var(--logoWidth);
   z-index: 50;
   position: absolute;
   top: 0;
@@ -69,7 +79,7 @@ nav ul {
   background-color: #333;
 }
 nav li:first-child {
-  padding-left: 405px;
+  padding-left: calc(var(--logoWidth)+1);
 }
 nav li {
   float: left;
