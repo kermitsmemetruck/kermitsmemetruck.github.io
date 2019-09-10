@@ -42,7 +42,7 @@ export default {
   /* Don't touch */
   --logoHeight: 50;
   --logoWidth: calc((var(--logoImageWidth)/2)/(var(--logoImageHeight)/50))
-  --logoSpacing: 1px;
+  --logoSpacing: 1;
 }
 * {
   margin: 0;
