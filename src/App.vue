@@ -9,7 +9,7 @@
           <router-link to="/">Home</router-link>
         </li>
         <li>
-          <a href="https://invite.gg/kermit">Join Discord</a>
+          <router-link to="/discord">Discord</router-link>
         </li>
       </ul>
     </nav>
