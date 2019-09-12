@@ -4,7 +4,7 @@
       <span class="title">Discord</span>
       <li>
         <a>
-          <img src="https://img.shields.io/discord/451069918474141706.svg?label=discord" class="shadow">
+          <img src="https://img.shields.io/discord/451069918474141706.svg?label=" class="shadow">
         </a>
       </li>
       <li v-for="item in items">
